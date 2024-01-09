@@ -1,0 +1,27 @@
+site_name: isalab-ntut           # 修改網站名稱
+site_description: 這是一個關於 NTUT 的 isa-lab 實驗室
+site_url: https://isalab-ntut.github.io/  # 更改為您的GitHub Pages URL
+
+repo_url: https://github.com/isalab-ntut/isalab-ntut.github.io # 更改為您的專案倉庫URL
+edit_uri: edit/main/docs/docs
+
+### 構建設置 ###
+
+theme: readthedocs
+
+nav:
+  - Home: index.md
+  - About : 0_starlab.md
+      - members : 1_members.md
+      - Awards : 2_Awards.md
+      - Publication : 3_Publication.md
+  - System : 0_Application.md
+
+
+  # - Tutorial:
+  #     - TL;DR: tutorial/tldr.md
+  #     - Installation: tutorial/installation.md
+  #     - Set up project: tutorial/setup-project.md
+  #     - Advanced: tutorial/advanced.md
+  #     - Usage: tutorial/usage.md
+  #     - Deploy: tutorial/deploy.md
