@@ -11,17 +11,9 @@ theme: readthedocs
 
 nav:
   - Home: index.md
-  - About : 0_starlab.md
+  - About:
       - members : 1_members.md
       - Awards : 2_Awards.md
       - Publication : 3_Publication.md
-  - System : 0_Application.md
-
-
-  # - Tutorial:
-  #     - TL;DR: tutorial/tldr.md
-  #     - Installation: tutorial/installation.md
-  #     - Set up project: tutorial/setup-project.md
-  #     - Advanced: tutorial/advanced.md
-  #     - Usage: tutorial/usage.md
-  #     - Deploy: tutorial/deploy.md
+  - System : 
+      - Application : 0_Application.md
